@@ -7,7 +7,7 @@ from .forms import ContactForm
 def home_page(request):
 	# print(request.session.get("first_name", "Unknown"))
 	context = {
-	    "title" : "OkBuy.me",
+	    "title" : "<<<<< Friday Haat >>>>>",
 	    "content" : "Welcome to the Home Page",
 
 	}
