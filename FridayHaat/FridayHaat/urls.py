@@ -34,6 +34,7 @@ urlpatterns = [
 	path('login/', login_page, name='login'),
 	path('logout/', LogoutView.as_view(), name='logout'),
 	path('register/', register_page, name='register'),
+	path('products/', include("products.urls", namespace='products')),
 	path('admin/', admin.site.urls),
 ]
 
